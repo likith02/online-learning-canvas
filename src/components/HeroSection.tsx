@@ -6,11 +6,8 @@ import { BookOpen, Clock, Users } from "lucide-react";
 const HeroSection = () => {
   return (
     <div className="relative overflow-hidden">
-      {/* Background gradient */}
-      <div className="absolute inset-0 hero-gradient opacity-95 -z-10"></div>
-      
-      {/* Pattern overlay */}
-      <div className="absolute inset-0 opacity-10 -z-10 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJ3aGl0ZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMzYgMzRjMC0xLjEuOS0yIDItMmgxMmExIDEgMCAwMTEgMXYxMmExIDEgMCAwMS0xIDFINDBjLTEuMSAwLTItLjktMi0ydi0xMHoiIG9wYWNpdHk9Ii44Ii8+PHBhdGggZD0iTTE1IDE5YzAtMS4xLjktMiAyLTJoMTJhMSAxIDAgMDExIDF2MTJhMSAxIDAgMDEtMSAxSDE3Yy0xLjEgMC0yLS45LTItMlYxOXoiIG9wYWNpdHk9Ii4zIi8+PHBhdGggZD0iTTAgNGMwLTEuMS45LTIgMi0yaDEyYTEgMSAwIDAxMSAxdjEyYTEgMSAwIDAxLTEgMUgyYy0xLjEgMC0yLS45LTItMlY0eiIvPjwvZz48L3N2Zz4=')]"></div>
+      {/* Solid background color */}
+      <div className="absolute inset-0 bg-blue-500 -z-10"></div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
         <div className="grid md:grid-cols-2 gap-12 items-center">
