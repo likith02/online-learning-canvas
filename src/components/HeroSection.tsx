@@ -76,8 +76,8 @@ const HeroSection = () => {
                   <input type="email" placeholder="Email Address" className="w-full p-3 border rounded-md" />
                 </div>
                 <div>
-                  <select className="w-full p-3 border rounded-md bg-white">
-                    <option value="" disabled selected>Select Grade</option>
+                  <select className="w-full p-3 border rounded-md bg-white" defaultValue="">
+                    <option value="" disabled>Select Grade</option>
                     <option value="grade-1">Grade 1</option>
                     <option value="grade-2">Grade 2</option>
                     <option value="grade-3">Grade 3</option>

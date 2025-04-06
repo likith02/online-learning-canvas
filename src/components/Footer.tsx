@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center">
               <BookOpen className="h-8 w-8 text-primary" />
-              <span className="ml-2 text-xl font-bold">EduLearn</span>
+              <span className="ml-2 text-xl font-bold">XYZ Academy</span>
             </div>
             <p className="mt-4 text-gray-600 max-w-xs">
               Empowering students through interactive online learning experiences.
@@ -68,7 +68,7 @@ const Footer = () => {
         <div className="mt-12 border-t border-gray-200 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-500">
-              © {new Date().getFullYear()} EduLearn. All rights reserved.
+              © {new Date().getFullYear()} XYZ Academy. All rights reserved.
             </p>
             <div className="mt-4 md:mt-0 flex flex-wrap gap-4">
               <a href="#" className="text-sm text-gray-500 hover:text-primary">Terms</a>
