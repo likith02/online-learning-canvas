@@ -13,13 +13,13 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-white/95 backdrop-blur-sm sticky top-0 z-50 w-full border-b border-slate-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="bg-blue-500 sticky top-0 z-50 w-full">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <BookOpen className="h-8 w-8 text-primary" />
-              <span className="ml-2 text-xl font-bold text-gray-900">XYZ Academy</span>
+              <BookOpen className="h-8 w-8 text-white" />
+              <span className="ml-2 text-xl font-bold text-white">XYZ Academy</span>
             </Link>
           </div>
 
@@ -29,7 +29,7 @@ const Navbar = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-primary transition-colors"
+                  className="px-3 py-2 text-sm font-medium text-white hover:bg-blue-600 rounded"
                 >
                   {item.name}
                 </a>
@@ -38,11 +38,11 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center space-x-3">
-            <Button variant="ghost" size="icon">
+            <Button variant="secondary" size="icon">
               <Search className="h-5 w-5" />
             </Button>
-            <Button variant="outline" className="hidden sm:inline-flex">Sign In</Button>
-            <Button>Get Started</Button>
+            <Button variant="secondary" className="hidden sm:inline-flex">Sign In</Button>
+            <Button variant="default" className="bg-yellow-400 hover:bg-yellow-500 text-blue-900">Get Started</Button>
           </div>
         </div>
       </div>
